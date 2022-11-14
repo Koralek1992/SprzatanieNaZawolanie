@@ -80,6 +80,10 @@ h3 {
 	text-align: center;
 }
 
+section.about-company {
+    background-color: rgb(245, 246, 240);
+}
+
 .photo-company {
 	width: 300px;
 }
@@ -122,48 +126,42 @@ p.text-muted {
 		font-size: 3rem;
 	}
 
-    section.about-company  {
-       
-        background-color: rgb(245,246,240);
-    }
+	h3 {
+		font-size: 4rem;
+	}
 
-    h3 {
-        font-size: 4rem;
-    }
+	.photo-company {
+		width: 500px;
+	}
 
-    .photo-company {
-        width: 500px;
-    }
+	.describe {
+		font-size: 2.7rem;
+	}
 
-    .describe {
-        font-size: 2.7rem;
-    }
-    
-    p.text-muted {
-        font-size: 2.3rem;
-    }
-    
-    .btn-contact {
-        font-size: 3rem;
-       
-    }
+	p.text-muted {
+		font-size: 2.3rem;
+	}
+
+	.btn-contact {
+		font-size: 3rem;
+	}
 }
 
 .carousel-item {
-    position: relative;
-    height: 500px;
+	position: relative;
+	height: 500px;
 }
 
 .carousel-caption {
-    position: absolute;
-    left: 0;
-    right: 0;
-    padding: 10px 0;
-    background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 10px 0;
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 .carousel-item p {
-    font-size: 3rem;
+	font-size: 3rem;
 }
 
 @media (min-width: 1200px) {
@@ -180,26 +178,25 @@ p.text-muted {
 		font-size: 2.6rem;
 	}
 
-    h3 {
-        font-size: 4.5rem;
-    }
+	h3 {
+		font-size: 4.5rem;
+	}
 
-    .photo-company {
-        width: 500px;
-    }
+	.photo-company {
+		width: 500px;
+	}
 
-    .describe {
-        margin: 5em;
-        font-size: 2.5rem;
-    }
-    
-    p.text-muted {
-        margin: 5em;
-        font-size: 2.3rem;
-    }
-    
-    .btn-contact {
-        font-size: 3rem;
-       
-    }
+	.describe {
+		margin: 5em;
+		font-size: 2.5rem;
+	}
+
+	p.text-muted {
+		margin: 5em;
+		font-size: 2.3rem;
+	}
+
+	.btn-contact {
+		font-size: 3rem;
+	}
 }
