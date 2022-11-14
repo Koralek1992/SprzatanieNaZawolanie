@@ -149,6 +149,23 @@ p.text-muted {
     }
 }
 
+.carousel-item {
+    position: relative;
+    height: 500px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-item p {
+    font-size: 3rem;
+}
+
 @media (min-width: 1200px) {
 	header .hero-img {
 		background-image: url('./img/header-big.jpg');
