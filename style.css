@@ -34,71 +34,120 @@ header .hero-shadow {
 }
 
 header .hero-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: 100%;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	height: 100%;
 }
 
-header .hero-text {
+header h1 {
 	padding: 0.5rem;
 	font-size: 3rem;
 	font-weight: bold;
 	text-transform: uppercase;
-	z-index: 1; 
+	z-index: 1;
 }
 
-header p{
-    font-size: 3rem;
+header p {
+	font-size: 3rem;
 }
-
 
 .navbar-brand {
-    font-size: 1.5rem;
-    text-transform: uppercase;
+	font-size: 1.5rem;
+	text-transform: uppercase;
 }
 
 .navbar-brand i {
-    color: tomato;
+	color: tomato;
 }
-
 
 button.navbar-toggler {
-    padding: 0.5em 1em;
+	padding: 0.5em 1em;
 }
 
-nav a.nav-link{
-    font-size: 1.4rem;
-    text-transform: uppercase;
+nav a.nav-link {
+	font-size: 1.4rem;
+	text-transform: uppercase;
 }
 
+h3 {
+	margin-top: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+}
+
+.photo-company {
+	width: 300px;
+}
+
+.describe {
+	margin-top: 1em;
+	font-size: 1.5rem;
+}
+
+p.text-muted {
+	font-size: 1.3rem;
+}
+
+.btn-contact {
+	display: block;
+	margin: 0 auto;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
 
 @media (min-width: 768px) {
-    header .hero-text {
-        font-size: 5rem;
+	header h1 {
+		font-size: 5rem;
+	}
+
+	header p {
+		font-size: 3.8rem;
+	}
+
+	button .navbar-toggler {
+		padding: 2em;
+	}
+
+	.navbar-brand {
+		font-size: 3.5rem;
+		text-transform: uppercase;
+	}
+
+	nav a.nav-link {
+		font-size: 3rem;
+	}
+
+    section.about-company  {
+       
+        background-color: rgb(245,246,240);
     }
 
-    header p{
-        font-size: 3.8rem;
+    h3 {
+        font-size: 4rem;
     }
 
-    button .navbar-toggler {
-        padding: 2em;
+    .photo-company {
+        width: 500px;
     }
 
-    .navbar-brand {
-        font-size: 3.5rem;
-        text-transform: uppercase;
+    .describe {
+        font-size: 2.7rem;
     }
-
-    nav a.nav-link{
+    
+    p.text-muted {
+        font-size: 2.3rem;
+    }
+    
+    .btn-contact {
         font-size: 3rem;
+       
     }
 }
-
 
 @media (min-width: 1200px) {
 	header .hero-img {
@@ -106,11 +155,34 @@ nav a.nav-link{
 		height: 50vh;
 	}
 
-    header .hero-text {
-        font-size: 5rem;
+	header h1 {
+		font-size: 5rem;
+	}
+
+	nav a.nav-link {
+		font-size: 2.6rem;
+	}
+
+    h3 {
+        font-size: 4.5rem;
     }
 
-    nav a.nav-link{
-        font-size: 2rem;
+    .photo-company {
+        width: 500px;
+    }
+
+    .describe {
+        margin: 5em;
+        font-size: 2.5rem;
+    }
+    
+    p.text-muted {
+        margin: 5em;
+        font-size: 2.3rem;
+    }
+    
+    .btn-contact {
+        font-size: 3rem;
+       
     }
 }
